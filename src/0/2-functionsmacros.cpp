@@ -8,7 +8,7 @@ int main() {
   int x;
   std::cout << "Enter number>";
   std::cin >> x;
-  std::cout << "squared " << sqr(x) << ", cubed " << cube(x) << '\n';
+  std::cout << "squared " << sqr(x) << ", cubed " << cube(x) << std::endl;
   return 0;
 }
 
